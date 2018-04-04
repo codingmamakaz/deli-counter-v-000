@@ -3,9 +3,11 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     cheque = []
+    counter = 0
     katz_deli.each do |in_line|
-      cheque.push (katz_deli.index)
-    puts "The line is currently : #{array.index} #{cheque}".
+      counter += 1
+      cheque.push(counter,".", in_line, " ")
     end
+    puts "The line is currently: #{cheque.join}"
   end
 end

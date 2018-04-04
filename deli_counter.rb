@@ -8,6 +8,7 @@ def line(katz_deli)
       counter += 1
       cheque.push(counter,". ", in_line, " ")
     end
+    cheque.pop
     puts "The line is currently: #{cheque.join}"
   end
 end

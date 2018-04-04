@@ -7,4 +7,5 @@ def line(katz_deli)
       cheque.push (katz_deli.index)
     puts "The line is currently : #{array.index} #{cheque}".
   end
+  end
 end

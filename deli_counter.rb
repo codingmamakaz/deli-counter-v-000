@@ -6,7 +6,7 @@ def line(katz_deli)
     counter = 0
     katz_deli.each do |in_line|
       counter += 1
-      cheque.push(counter,".", in_line, " ")
+      cheque.push(counter,". ", in_line, " ")
     end
     puts "The line is currently: #{cheque.join}"
   end

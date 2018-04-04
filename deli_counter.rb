@@ -6,6 +6,6 @@ def line(katz_deli)
     katz_deli.each do |in_line|
       cheque.push (katz_deli.index)
     puts "The line is currently : #{array.index} #{cheque}".
-  end
+    end
   end
 end
